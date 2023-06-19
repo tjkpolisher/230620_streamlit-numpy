@@ -17,4 +17,7 @@ def main():
     st.write("덧셈 결과:", result)
 
 if __name__ == "__main__":
-    main()
+    try:
+        main()
+    except:
+        st.error("😺 값을 입력해주세요!")

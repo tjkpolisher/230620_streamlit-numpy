@@ -19,4 +19,7 @@ def main():
     st.write("최댓값:", max_result)
 
 if __name__ == "__main__":
-    main()
+    try:
+        main()
+    except:
+        st.error("😺 값을 입력해주세요!")
