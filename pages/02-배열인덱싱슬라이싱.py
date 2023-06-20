@@ -4,9 +4,9 @@ import numpy as np
 def main():
     st.title("배열 인덱싱과 슬라이싱")
     
-    array_string = st.text_input("배열 입력:")
+    array_string = st.text_input("배열 입력:") # 
     
-    array = np.fromstring(array_string, dtype=int, sep=",")
+    array = np.fromstring(array_string, dtype=int, sep=",") # 문자열을 배열로, 자료형은 정수형, 구분자는 콤마(,)
     st.write("입력된 배열:", array)
     
     start = st.number_input("시작 인덱스:", min_value=0, step=1, value=0)
