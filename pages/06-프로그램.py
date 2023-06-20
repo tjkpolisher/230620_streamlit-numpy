@@ -2,7 +2,7 @@ import streamlit as st
 import numpy as np
 
 def main():
-    st.title("실생활 어플리케이션: 데이터 분석 도구")
+    st.title("데이터 분석 도구 프로그램")
     
     option = st.sidebar.selectbox("분석 종류", ("평균 계산", "표준 편차 계산", "배열 연산", "배열 변형", "집계 함수"))
     
